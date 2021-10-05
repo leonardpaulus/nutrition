@@ -1,4 +1,4 @@
-.favorite-cards__layout {
+.favorite-cards-layout {
   display:flex;
   flex-direction: row;
   column-gap: 1rem;
