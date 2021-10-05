@@ -6,12 +6,21 @@
   box-sizing: border-box;
 }
 
+:root {
+  --font-family: "Signika", sans-serif;
+  --color-primary: #91C788;
+  --color-secondary: #FF8473;
+  --color-background: #E5E5E5;
+  --color-primary-text: #262626;
+  --color-secondary-text: #8c8c8c;
+}
+
 html {
   font-size: 16px;
 }
 
 body {
-  font-family: "Quicksand", sans-serif;
+  font-family: var(--font-family);
   margin: 0;
 }
 
