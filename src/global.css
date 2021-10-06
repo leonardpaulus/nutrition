@@ -15,6 +15,7 @@
   --color-background: #E5E5E5;
   --color-primary-text: #262626;
   --color-secondary-text: #8c8c8c;
+  --color-light-contrast: white;
 }
 
 html {
