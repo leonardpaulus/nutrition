@@ -1,5 +1,20 @@
-.avatar {
+.avatar__container {
+  height: 10rem;
+  width: 10rem;
+  position: relative;
+}
+
+.avatar__icon {
+  width: 1.5rem;
+  height: 1.5rem;
   border-radius: 50%;
-  height: 100px;
-  width: 100px;
+  outline: 0.3rem;
+  outline: solid;
+  outline-color: var(--color-light-contrast);
+  position: absolute;
+  right: 10%;
+  bottom: 5%;
+  background-color: var(--color-secondary-shade);
+  display: grid;
+  place-items: center;
 }
