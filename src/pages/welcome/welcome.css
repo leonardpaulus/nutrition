@@ -1,15 +1,41 @@
+.welcome__title {
+  font-size: 3rem;
+  animation: logo_fade .5s ease-in-out, logo_size .5s ease-in-out;;
+}
+
 .welcome {
   height: 100vh;
   width: 100vw;
-  background-color: #1fc8db;
-  background-image: linear-gradient(
-    141deg,
-    #9fb8ad 0%,
-    #1fc8db 51%,
-    #2cb5e8 75%
-  );
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  color: var(--color-light-contrast);
+  background: linear-gradient(125deg, var(--color-primary), #22471B);
+  background-size: 400% 400%;
+  animation: welcome_background 4s ease-in-out infinite;
+}
+
+@keyframes welcome_background {
+  0%{background-position:0% 15%}
+  50%{background-position:10% 40%}
+  100%{background-position:0% 15%}
+}
+
+@keyframes logo_fade {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes logo_size {
+  from {
+    font-size: 2.7rem;
+  }
+  to {
+    size: 3rem;
+  }
 }
