@@ -10,9 +10,12 @@
   --font-family: "Signika", sans-serif;
   --color-primary: #91C788;
   --color-secondary: #FF8473;
+  --color-secondary-shade: #FF9385;
+  --color-tertiary-shade: #FFF8EE;
   --color-background: #E5E5E5;
   --color-primary-text: #262626;
   --color-secondary-text: #8c8c8c;
+  --color-light-contrast: white;
 }
 
 html {
